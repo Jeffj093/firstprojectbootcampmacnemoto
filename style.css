@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcf481;
+    
+}
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.pokemon-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 12px;
+    background: #797979;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px
+}
+.pokemon-type {
+    font-size: 22px;
+    color: #777;
+}
+.pokemon-attacks {
+    font-size: 20px;
+    color: #555;
+    
+}
+.dark-symbol {
+    font-size: 18px;
+    color: #ffcc00;
+}
