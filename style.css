@@ -3,35 +3,56 @@ body {
     background-color: #fcf481;
     
 }
+
 .card {
+    
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 30px;
     max-width: 300px;
     margin: 0 auto;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+
 }
+
 .pokemon-name {
+    padding: 15px;
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
-    border-radius: 12px;
     background: #797979;
-    width: 300px;
-    height: 40px;
-    margin-bottom: 10px
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+
 }
+
 .pokemon-type {
-    font-size: 22px;
-    color: #777;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-size: 18px;
+    color: #000000;
+    background-color: #d8d8d8;
+    /* width: 100%; */
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem; 
+
+
+
 }
 .pokemon-attacks {
     font-size: 20px;
     color: #555;
-    
+
 }
-.dark-symbol {
-    font-size: 18px;
-    color: #ffcc00;
+.size {
+    font-size: 1.5rem; /* 24px */
+line-height: 2rem; /* 32px */
+}
+.jeff {
+    width: 50%
 }
