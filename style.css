@@ -1,57 +1,86 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fcf481;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #fcf481;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.pokemon-name {
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #797979;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.pokemon-type {
+  display: flex;
+  padding: 12px;
+  font-size: 18px;
+  color: #000000;
+  justify-content: space-between;
+  margin-bottom: 20px;
   
-  .card {
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 300px;
-    margin: 0 auto;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .pokemon-name {
-    padding: 15px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff;
-    background: #797979;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-  }
-  
-  .pokemon-type {
-    display: flex;
-    padding: 15px;
-    font-size: 18px;
-    color: #000000;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    
-  }
-  .color {
-    background-color: #d8d8d8;
-  }
-  .pokemon-attacks {
-    font-size: 20px;
-    color: #555;
-  }
-  .size {
-    font-size: 1.5rem; /* 24px */
-    line-height: 2rem; /* 32px */
-  }
-  
-  
-  
-  .img-pikachu {
-    margin-bottom: 10px;
-  }
-  
-  .center {
-    display: flex;
-    justify-content: center;
-  }
-  
+}
+.color {
+  background-color: #e4e4e4;
+}
+.pokemon-attacks {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  font-size: 18px;
+  color: #000000;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bite{
+display: flex;
+justify-content: space-between;
+}
+
+
+.size {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+
+.img-pikachu {
+  margin-bottom: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e4e4e4;
+  padding: 15px;
+  border-radius: 0.25rem;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column ;
+}
+
+.image-size{
+  height: 20px;
+  width: 20px;
+}
+
